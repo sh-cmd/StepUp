@@ -1,0 +1,97 @@
+﻿nguage="C#" AutoEventWireup="true" CodeFile="AdminMasterPage1.master.cs" Inherits="AdminMasterPage1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Welcome Admin!</title>
+
+    <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="Google Chrome" /> 
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+       
+
+    <style>
+        body{
+             font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+             background-size: cover;
+             background-image: linear-gradient(45deg, rgba(254, 246, 210, 0.53) 0%, rgba(254, 246, 210, 0.53) 14.286%,rgba(221, 240, 216, 0.53) 14.286%, rgba(221, 240, 216, 0.53) 28.572%,rgba(188, 233, 223, 0.53) 28.572%, rgba(188, 233, 223, 0.53) 42.858%,rgba(156, 227, 229, 0.53) 42.858%, rgba(156, 227, 229, 0.53) 57.144%,rgba(123, 220, 235, 0.53) 57.144%, rgba(123, 220, 235, 0.53) 71.42999999999999%,rgba(90, 214, 242, 0.53) 71.43%, rgba(90, 214, 242, 0.53) 85.71600000000001%,rgba(57, 207, 248, 0.53) 85.716%, rgba(57, 207, 248, 0.53) 100.002%),linear-gradient(135deg, rgb(246, 99, 200) 0%, rgb(246, 99, 200) 12.5%,rgb(223, 98, 196) 12.5%, rgb(223, 98, 196) 25%,rgb(199, 97, 192) 25%, rgb(199, 97, 192) 37.5%,rgb(176, 96, 188) 37.5%, rgb(176, 96, 188) 50%,rgb(152, 95, 184) 50%, rgb(152, 95, 184) 62.5%,rgb(129, 94, 180) 62.5%, rgb(129, 94, 180) 75%,rgb(105, 93, 176) 75%, rgb(105, 93, 176) 87.5%,rgb(82, 92, 172) 87.5%, rgb(82, 92, 172) 100%);
+        }
+        .submit1{
+            width: 200px;
+            background-color: #3aaf9f;
+            color: white;
+            font-size: 18px;
+            padding: 7px;
+            border: 1px solid #3aaf9f;
+            //margin-left: 150px;
+            margin-top: 15px;
+            opacity: 0.9;
+        }
+        .submit1:hover{
+            cursor: pointer;
+            opacity: 1;
+        }
+        .heading{
+            font-weight: bold;
+        }
+        .content1{
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+    
+     
+
+     <div class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color:whitesmoke;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle Notification</span>
+                        <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="AdminHomePage1.aspx" ><span><img src="Logo.png" alt="Go Faster, Go Stronger" height="36" width="160"
+                         style="top:0;"/></span></a>
+
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="AdminHomePage1.aspx" >Home</a></li>
+                        <asp:Button ID="btnAdminlogout" CssClass="btn btn-default navbar-btn" runat="server" Text="Sign Out"  />
+                        
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+    
+     
+                   
+                        
+                       
+                         
+                        
+                         
+
+        <div class="container">
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+    
+    </form>
+</body>
+</html>
+

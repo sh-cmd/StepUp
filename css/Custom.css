@@ -1,0 +1,140 @@
+﻿.center {
+    text-align:center;
+}
+
+.center-page{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: -40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.footer-pos{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 600px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/*Products Page CSS*/
+
+.probrand{
+    font-size:15px;
+    font-weight:600;
+    line-height:15px;
+    text-transform:uppercase;
+    font-family:sans-serif;
+}
+
+.proName{
+    font-size:13px;
+    line-height:17px;
+    font-family:sans-serif;
+}
+
+.proPrice{
+    font-size:14px;
+    line-height:17px;
+    font-family:sans-serif;
+    font-weight: 600;
+}
+
+
+.proOgPrice{
+    font-size:13px;
+    line-height:17px;
+    font-family:sans-serif;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.proPriceDiscount{
+    font-size:13px;
+    font-family:sans-serif;
+    font-weight: 400;
+    color: deeppink;
+}
+
+/*View Products Page*/
+
+.proNameView{
+    font-size: 20px;
+    line-height: 25px;
+    font-family: sans-serif;
+    color: #696e80;
+     
+}
+
+
+.proOgPriceView{
+    font-size:15px;
+    font-family:sans-serif;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.proPriceDiscountView{
+    font-size:15px;
+    font-family:sans-serif;
+    font-weight: 400;
+    color: deeppink;
+}
+
+.proPriceView{
+    font-size:14px;
+    line-height:17px;
+    font-family:sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.divDet1{
+    border-bottom: 1px dashed #ff6a00;
+    margin-bottom: 10px;
+}
+
+.h5Size{
+    font-weight: 600;
+}
+
+.input[type=radio]{
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.mainButton{
+    border-radius: 3px;
+    min-width: 108px;
+    outline: 0;
+    margin-top: 10px;
+    min-height: 22px;
+    font-size: 13px;
+    font-weight: 500;
+    background: #FF5722;
+    color: #fff;
+}
+
+#btncart{
+    margin-left: 6px;
+}
+
+body {
+             font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+             background-size: cover;
+             background-image: linear-gradient(45deg, rgba(254, 246, 210, 0.53) 0%, rgba(254, 246, 210, 0.53) 14.286%,rgba(221, 240, 216, 0.53) 14.286%, rgba(221, 240, 216, 0.53) 28.572%,rgba(188, 233, 223, 0.53) 28.572%, rgba(188, 233, 223, 0.53) 42.858%,rgba(156, 227, 229, 0.53) 42.858%, rgba(156, 227, 229, 0.53) 57.144%,rgba(123, 220, 235, 0.53) 57.144%, rgba(123, 220, 235, 0.53) 71.42999999999999%,rgba(90, 214, 242, 0.53) 71.43%, rgba(90, 214, 242, 0.53) 85.71600000000001%,rgba(57, 207, 248, 0.53) 85.716%, rgba(57, 207, 248, 0.53) 100.002%),linear-gradient(135deg, rgb(246, 99, 200) 0%, rgb(246, 99, 200) 12.5%,rgb(223, 98, 196) 12.5%, rgb(223, 98, 196) 25%,rgb(199, 97, 192) 25%, rgb(199, 97, 192) 37.5%,rgb(176, 96, 188) 37.5%, rgb(176, 96, 188) 50%,rgb(152, 95, 184) 50%, rgb(152, 95, 184) 62.5%,rgb(129, 94, 180) 62.5%, rgb(129, 94, 180) 75%,rgb(105, 93, 176) 75%, rgb(105, 93, 176) 87.5%,rgb(82, 92, 172) 87.5%, rgb(82, 92, 172) 100%);
+        }
+
+.div1{
+    background-image: repeating-linear-gradient(0deg, rgba(219, 219, 219,0.2) 0px, rgba(219, 219, 219,0.2) 1px,transparent 1px, transparent 21px),repeating-linear-gradient(90deg, rgba(219, 219, 219,0.2) 0px, rgba(219, 219, 219,0.2) 1px,transparent 1px, transparent 21px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+}
